@@ -8,7 +8,14 @@ public class App {
         int resultadoSuma = ejercicios.sumaConsecutivos(5); 
         System.out.println("Suma consecutivos(5) = " + resultadoSuma);
         
-     
+        
+        int resultado = ejercicios.getPotencia(2, 3);
+        System.out.println("Multiplicacion de exponentes = " + resultado);
+
+        
+        int numero = ejercicios.sumaDigitos(1234);
+        System.out.println("La suma de los dígitos es: " + numero);
+
       /*   int n = 5;
         int resultadoFinal = factorial(n);
         System.out.println("Resultado: " + resultadoFinal);
