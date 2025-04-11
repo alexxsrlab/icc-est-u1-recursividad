@@ -16,6 +16,17 @@ public class App {
         int numero = ejercicios.sumaDigitos(1234);
         System.out.println("La suma de los dígitos es: " + numero);
 
+        
+        int numero2 = 10; 
+        System.out.print("Orden Descendente:  ");
+        ejercicios.imprimirDescendente(numero2);
+        System.out.println();
+
+        
+        int numero3 = 1234; 
+        int resultado1 = ejercicios.reverso(numero3, 0);
+        System.out.println("El número invertido es: " + resultado1);
+
       /*   int n = 5;
         int resultadoFinal = factorial(n);
         System.out.println("Resultado: " + resultadoFinal);

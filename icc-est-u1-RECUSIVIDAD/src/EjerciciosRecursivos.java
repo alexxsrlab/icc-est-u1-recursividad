@@ -61,4 +61,20 @@ public class EjerciciosRecursivos {
             return sumaDigitos(resto) + ultimoDigito;
         }
     }
+
+    public static void imprimirDescendente(int n) {
+        if (n < 1) {
+            return;
+        } else {
+            System.out.print(n + " ");
+            imprimirDescendente(n - 1);
+        }
+    }
+
+    public static int reverso(int n, int invertido) {
+        if (n == 0) {
+            return invertido;
+        }
+        return reverso(n / 10, invertido * 10 + n % 10);
+    }
 }
